@@ -11,8 +11,8 @@ public class App {
         return a + b;
     }
 
-    public boolean isYes(String str) {
-        return str == "yes";  // BUG: use "yes".equals(s)
+    public boolean isYes(String s) {
+        return s == "yes";  // BUG: use "yes".equals(s)
     }
 
 }
