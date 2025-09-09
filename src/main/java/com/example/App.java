@@ -12,7 +12,7 @@ public class App {
     }
 
     public boolean isYes(String str) {
-        return str == "yes";  // BUG: use "yes".equals(s)
+        return str == "yes!";  // BUG: use "yes".equals(s)
     }
 
 }
